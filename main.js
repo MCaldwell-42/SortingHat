@@ -11,7 +11,7 @@ const sortButton = document.getElementById("sort");
 const studentName = document.getElementById("nameInput");
 const students = [];
 let studentCounter = 1;
-const Houses = ['Hufflepuff', 'Gryffindor', 'Ravenclaw', 'Slytherin'];
+const Houses = [`<img src="./house pics/huffle.png">`, `<img src="./house pics/gryff.png">`, `<img src="./house pics/raven.png">`, `<img src="./house pics/slytherin.png">`];
 
 const printToDom = (divId, textToPrint) => {
     const selectedDiv = document.getElementById(divId);
@@ -47,7 +47,7 @@ const addDeleteEvents = () => {
         domString += `<div class="card col-3" >`;
         domString +=    `<div id='card' class='card-body'>`;
         domString +=        `<h3 class="card-title">${student.name}</h3>`;
-        domString +=        `<h4>${student.house}</h2>`;
+        domString +=        `<h4>${student.house}</h4>`;
         domString +=      `<a class="btn btn-danger expelButton" id = ${student.id}>Expel</a>`;
         // domString += `<img src=${pet.imageUrl}>`;
         domString +=    `</div>`;
