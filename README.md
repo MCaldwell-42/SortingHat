@@ -3,7 +3,7 @@ Displays a website that performs a simple randomization process to assign studen
 
 # Screenshots
 
-![Screenshot]()
+![SortingHatScreenshot](https://raw.githubusercontent.com/MCaldwell-42/SortingHat/master/house%20pics/SortingScreenshot.png)
 
 # Getting Started
 
